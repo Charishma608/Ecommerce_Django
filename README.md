@@ -27,7 +27,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/atulguptag/Django-eCommerce-Website.git
+   git clone [https://github.com/atulguptag/Django-eCommerce-Website.git](https://github.com/Charishma608/Ecommerce_Django.git)
    cd Django-eCommerce-Website
    ```
 
@@ -94,15 +94,6 @@ To run this project locally, follow these steps:
    ```
    http://127.0.0.1:8000/
    ```
-
-### `Note`: After you navigate to the above url (`http://127.0.0.1:8000/`), and when you try to navigate to the login, signup, or any page which requires login, then you'll see an error coming from the Social Account Model. If you don't want to add google auth functionality in your project, you can simply remove all social account related things in the code. In case, if you want to proceed with the default, then here's how you can fix that error -
-
-- Follow this step: navigate to `http://127.0.0.1:8000/admin/`, enter your `username and password` which you used to create in `Step no: 6`
-- then follow this screenshot for better understanding :) -
-
-- ![Social Application Screenshot](Screenshots/google_auth-Change-social-application-Django-site-admin.png)
-
-- Simply, put your Google Client Id and Secret Id in those two places which I highlighted.
 
 
 ## Usage
